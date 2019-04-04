@@ -1,0 +1,11 @@
+Poa Eats
+
+- Cadastro de usuario
+- Cadastro de restaurante
+    - Nome
+    - CNPJ
+    - Endereco
+    - Telefone
+    - Horario de funcionamento
+- Lista de restaurantes
+- Cardapio do restaurante

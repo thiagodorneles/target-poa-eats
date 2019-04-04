@@ -1,0 +1,33 @@
+{
+  "name": "poa-eats",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "coverage": "mocha --coverage",
+    "test": "mocha test/**/*.js --exit",
+    "start": "nodemon --exec babel-node -- src/app.js",
+    "build": "babel src -d dist"
+  },
+  "author": "Conrado Terres Tejada",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongodb": "^3.2.2",
+    "mongoose": "^5.4.21"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/node": "^7.2.2",
+    "@babel/plugin-transform-runtime": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "chai": "^4.2.0",
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "standard": "^12.0.1"
+  }
+}
